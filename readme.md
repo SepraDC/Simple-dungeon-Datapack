@@ -151,16 +151,16 @@ Project Link: [https://github.com/SepraDC/Simple-dungeon-Datapack](https://githu
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/SepraDC/Simple-dungeon-Datapack.svg?style=for-the-badge
 [contributors-url]: https://github.com/SepraDC/Simple-dungeon-Datapack/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/SepraDC/Simple-dungeon-Datapack.svg?style=for-the-badge
 [forks-url]: https://github.com/SepraDC/Simple-dungeon-Datapack/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/SepraDC/Simple-dungeon-Datapack.svg?style=for-the-badge
 [stars-url]: https://github.com/SepraDC/Simple-dungeon-Datapack/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/SepraDC/Simple-dungeon-Datapack.svg?style=for-the-badge
 [issues-url]: https://github.com/SepraDC/Simple-dungeon-Datapack/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/SepraDC/Simple-dungeon-Datapack.svg?style=for-the-badge
 [license-url]: https://github.com/SepraDC/Simple-dungeon-Datapack/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/lucas-birac-02a87015b
 [product-screenshot]: images/screenshot.png
 [json]: https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white
 [json-url]: https://nextjs.org/
