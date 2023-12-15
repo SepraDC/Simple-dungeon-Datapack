@@ -1,0 +1,15 @@
+{
+  "name": "dungeon:primary_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {	
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/room_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

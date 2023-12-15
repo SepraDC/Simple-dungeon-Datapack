@@ -1,0 +1,141 @@
+{
+  "name": "dungeon:secondary_rooms",
+  "fallback": "dungeon:end_rooms",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/small_cross_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/small_line_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/turn_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/end_2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/end_whith_secret_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/room_with_sand_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {	
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/room_jump",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/stairs_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/small_pit_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/room_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/room_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/forge_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/library_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/kitchen_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/maze_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
