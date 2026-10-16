@@ -42,7 +42,7 @@
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "dungeon:corridor/end_whith_secret_1",
+        "location": "dungeon:corridor/end_with_secret_1",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

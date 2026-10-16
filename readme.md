@@ -16,7 +16,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Simple Dungeon Datapack 1.20.2</h3>
+  <h3 align="center">Simple Dungeon Datapack 26.3</h3>
 
   <p align="center">
     A Minecraft datapack that add one unique dungeon
@@ -48,6 +48,7 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -61,9 +62,9 @@
 
 [![Simple Dungeon Screen Shot][product-screenshot]](https://example.com)
 
-This project is a minecraft 1.20 datapack made to add a new procedural dungeon in some biomes. The dungeon is made with primary, secondary, secret rooms and corridors.
+This project is a minecraft 26.3 datapack made to add a new procedural dungeon in some biomes. The dungeon is made with primary, secondary, secret rooms and corridors.
 
-You can find this dungeon in Mushroom Field, plains and Meadow for the moment.
+You can find this dungeon in Plains, Forest, Birch Forest and Mushroom Fields for the moment.
 
 All the minecraft structure are inside.
 
@@ -104,6 +105,14 @@ or place only room with
 ```
 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+The dungeon is evolving into a combat-focused dungeon using trial spawners, vaults and custom loot tables. See [docs/roadmap.md](docs/roadmap.md) for what is done and what comes next.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
