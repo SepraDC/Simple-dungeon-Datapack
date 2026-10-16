@@ -1,0 +1,34 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+env:
+  # Minecraft version targeted by the pack, used in the zip name and release title
+  MC_VERSION: "26.3"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build datapack zip
+        run: |
+          zip_name="simple-dungeon-${GITHUB_REF_NAME}-mc${MC_VERSION}.zip"
+          files="pack.mcmeta data"
+          if [ -f pack.png ]; then files="$files pack.png"; fi
+          zip -rX "$zip_name" $files
+          echo "ZIP_NAME=$zip_name" >> "$GITHUB_ENV"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "$ZIP_NAME" \
+            --title "$GITHUB_REF_NAME (Minecraft $MC_VERSION)" \
+            --generate-notes
