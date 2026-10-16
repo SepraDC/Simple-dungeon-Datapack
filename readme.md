@@ -16,7 +16,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Simple Dungeon Datapack 1.20.2</h3>
+  <h3 align="center">Simple Dungeon Datapack 26.3</h3>
 
   <p align="center">
     A Minecraft datapack that add one unique dungeon
@@ -61,7 +61,7 @@
 
 [![Simple Dungeon Screen Shot][product-screenshot]](https://example.com)
 
-This project is a minecraft 1.20 datapack made to add a new procedural dungeon in some biomes. The dungeon is made with primary, secondary, secret rooms and corridors.
+This project is a minecraft 26.3 datapack made to add a new procedural dungeon in some biomes. The dungeon is made with primary, secondary, secret rooms and corridors.
 
 You can find this dungeon in Mushroom Field, plains and Meadow for the moment.
 
