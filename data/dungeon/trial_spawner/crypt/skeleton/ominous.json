@@ -1,0 +1,41 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "minecraft:spawners/trial_chamber/key",
+      "weight": 3
+    },
+    {
+      "data": "minecraft:spawners/ominous/trial_chamber/consumables",
+      "weight": 7
+    }
+  ],
+  "simultaneous_mobs": 3.0,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:skeleton"
+        },
+        "equipment": {
+          "loot_table": "dungeon:equipment/crypt/skeleton",
+          "slot_drop_chances": 0.0
+        }
+      },
+      "weight": 3
+    },
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton"
+        },
+        "equipment": {
+          "loot_table": "dungeon:equipment/crypt/wither_skeleton",
+          "slot_drop_chances": 0.0
+        }
+      },
+      "weight": 2
+    }
+  ],
+  "ticks_between_spawn": 20
+}

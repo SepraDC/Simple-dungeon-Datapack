@@ -34,10 +34,17 @@ Kitchen barrels use dedicated loot tables instead of hand-filled inventories, in
 
 About half of all rolls give rotten flesh: the kitchen has been abandoned for a long time.
 
+### New room: the crypt
+`primary/crypt_1` (23x14x25), added to `secondary_rooms`. Inspired by Skyrim's Nordic barrows: a nave facing north, dark deepslate with light tuff rims.
+- Two tombs with trial spawners (`dungeon:crypt/skeleton`): skeletons; when ominous, skeletons and wither skeletons in chainmail with a quartz rib trim (`dungeon:equipment/crypt/*`). A trial spawner only knows normal or ominous: the Bad Omen level does not change the mobs.
+- The jarl's tomb on a raised platform holds a vault that opens with the trial keys. Its loot (`dungeon:chests/crypt/vault`) favors weapons: enchanted spears, bows and crossbows, trimmed chainmail, the rib trim template and the skull banner pattern. It follows the vanilla reward structure (one rare or common item, 1 to 3 common items, 25% chance of a unique item) without Trial Chambers items.
+- The vault is a normal vault, so the ominous spawner config ejects a normal trial key (`minecraft:spawners/trial_chamber/key`) instead of an ominous one.
+- Burial alcoves with a decorated pot (archer or skull sherd) and a skeleton skull on top. Pots use `dungeon:pots/crypt/alcove`: mostly bones and bone meal, sometimes gold, an emerald or a diamond.
+
 ## Next steps
 
 ### Step 2: Combat with trial spawners and dungeon loot tables
-- **Themed trial spawners per room**: magma cubes and blazes in the forge, vexes and evokers in the library, wither skeletons in the maze. Trial spawners spawn waves scaled to the number of players, go on cooldown once beaten and eject a reward.
+- **Themed trial spawners per room**: magma cubes and blazes in the forge, vexes and evokers in the library, wither skeletons in the maze (done: skeletons and wither skeletons in the crypt). Trial spawners spawn waves scaled to the number of players, go on cooldown once beaten and eject a reward.
 - **Equipped mobs**: mobs spawned by a trial spawner can wear gear from a loot table (enchanted bows for skeletons, armored zombies...).
 - **Elites**: the `scale` attribute (since 1.20.5) allows bigger mini-bosses, such as a giant wither skeleton with more health and a custom name.
 - **Ominous mode**: with Bad Omen, the dungeon gets harder and gives better rewards, like Trial Chambers.
