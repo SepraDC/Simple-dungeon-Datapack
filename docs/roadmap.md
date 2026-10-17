@@ -60,7 +60,7 @@ Cracked deepslate bricks mark secret rooms that players open by mining them, so 
 
 ### Step 3: Rewards and the final room
 - **Dungeon key**: vaults accept any item as a key, for example a custom "Dungeon Key" with its own name and model. Room trial spawners drop it when beaten.
-- **Vaults** with their own loot tables, including ominous vaults.
+- **Vaults** with their own loot tables, including ominous vaults. Ominous vaults go in some secret rooms (and other special places): the room vaults (well, crypt) stay normal, and ominous spawners eject normal keys for them. To reward ominous mode, the ominous configs will also need to eject ominous keys for those vaults.
 - **Exclusive enchantment**: enchantments are data-driven since 1.21. A custom enchantment only found in this dungeon gives a reason to explore it.
 - **Final room**: a boss arena with ominous vaults, reached after beating rooms to collect keys. Best built in game, then integrated (jigsaws, pools, weights).
 
