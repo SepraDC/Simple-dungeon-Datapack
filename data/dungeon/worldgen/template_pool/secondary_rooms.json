@@ -3,7 +3,7 @@
   "fallback": "dungeon:end_rooms",
   "elements": [
     {
-      "weight": 12,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/small_cross_1",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 12,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/small_line_1",
@@ -21,7 +21,52 @@
       }
     },
     {
-      "weight": 12,
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/pots_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/collapsed_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/spider_nest_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/tripwire_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:corridor/collapsed_nest_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/turn_1",
@@ -30,7 +75,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/end_2",
@@ -48,7 +93,7 @@
       }
     },
     {
-      "weight": 7,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/room_with_sand_1",
@@ -57,7 +102,7 @@
       }
     },
     {	
-      "weight": 7,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/room_jump",
@@ -66,7 +111,7 @@
       }
     },
     {
-      "weight": 12,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/stairs_1",
@@ -75,7 +120,7 @@
       }
     },
     {
-      "weight": 7,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:corridor/small_pit_1",
@@ -84,7 +129,7 @@
       }
     },
     {	
-      "weight": 10,
+      "weight": 9,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:primary/room_2",
@@ -93,7 +138,7 @@
       }
     },
     {	
-      "weight": 10,
+      "weight": 9,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:primary/room_3",
@@ -120,7 +165,7 @@
       }
     },
     {	
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:primary/kitchen_1",
@@ -129,10 +174,19 @@
       }
     },
     {	
-      "weight": 10,
+      "weight": 14,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "dungeon:primary/maze_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 14,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dungeon:primary/crypt_1",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
