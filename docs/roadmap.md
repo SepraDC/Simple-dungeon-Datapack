@@ -34,6 +34,8 @@ Kitchen barrels use dedicated loot tables instead of hand-filled inventories, in
 
 About half of all rolls give rotten flesh: the kitchen has been abandoned for a long time.
 
+The tables use the 26.3 loot table format: `modifier` with `type`, instead of `functions` with `function` used through 26.2.
+
 ### New room: the crypt
 `primary/crypt_1` (23x14x25), added to `secondary_rooms`. Inspired by Skyrim's Nordic barrows: a nave facing north, dark deepslate with light tuff rims.
 - Two tombs with trial spawners (`dungeon:crypt/skeleton`): skeletons; when ominous, skeletons and wither skeletons in chainmail with a quartz rib trim (`dungeon:equipment/crypt/*`). A trial spawner only knows normal or ominous: the Bad Omen level does not change the mobs.
