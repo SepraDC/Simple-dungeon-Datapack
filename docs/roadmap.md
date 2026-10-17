@@ -36,6 +36,10 @@ About half of all rolls give rotten flesh: the kitchen has been abandoned for a 
 
 The tables use the 26.3 loot table format: `modifier` with `type`, instead of `functions` with `function` used through 26.2.
 
+### Anti-digging
+Cracked deepslate bricks mark secret rooms that players open by mining them, so they are left alone.
+- A player who breaks a deepslate brick, tile, polished or chiseled block, or a mud brick, inside the dungeon gets Mining Fatigue III for 30 s, with the elder guardian sound and an action bar message (at most once every 5 s). Detection uses `minecraft.mined` statistics and the `dungeon:in_dungeon` predicate. Cracked bricks are not tracked, and creative/spectator players are ignored.
+
 ### New room: the crypt
 `primary/crypt_1` (23x14x25), added to `secondary_rooms`. Inspired by Skyrim's Nordic barrows: a nave facing north, dark deepslate with light tuff rims.
 - Two tombs with trial spawners (`dungeon:crypt/skeleton`): skeletons; when ominous, skeletons and wither skeletons in chainmail with a quartz rib trim (`dungeon:equipment/crypt/*`). A trial spawner only knows normal or ominous: the Bad Omen level does not change the mobs.
@@ -62,7 +66,7 @@ The tables use the 26.3 loot table format: `modifier` with `type`, instead of `f
 
 ### Step 4: Variety
 - **Dungeon themes** with jigsaw `pool_aliases` (since 1.20.5): a whole dungeon picks one theme (undead, illagers, Nether), and mobs and loot follow it.
-- **Processors** that randomly add cracked bricks, moss and cobwebs, so each dungeon looks different with the same rooms.
+- **Processors** that randomly add moss and cobwebs, so each dungeon looks different with the same rooms. Never cracked bricks: they mark secret rooms.
 - **Advancements**: find the dungeon, beat the boss, find every secret room.
 
 ## Open points
